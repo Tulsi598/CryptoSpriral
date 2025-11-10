@@ -47,13 +47,8 @@ Mapping from address to token balance
         emit Transfer(account, address(0), burnAmount);
     }
 
-    // Transfer contract ownership
-    function transferOwnership(address newOwner) external onlyOwner {
-        require(newOwner != address(0), "New owner is zero address");
-        emit OwnershipTransferred(owner, newOwner);
-        owner = newOwner;
-    }
-}
+    End
+// 
 // 
 End
 // 
