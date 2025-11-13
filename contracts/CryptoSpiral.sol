@@ -50,6 +50,7 @@ Mapping from address to token balance
     End
 End
 End
+End
 // 
 // 
 End
